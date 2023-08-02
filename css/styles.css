@@ -12,7 +12,6 @@ html {
 body {
   font-family: "Roboto", sans-serif;
   font-size: 1.6rem;
-  background-color: #333;
 }
 
 .hero-shadow {
@@ -51,4 +50,20 @@ body {
   background-image: url("../img/panama-city-small.jpg");
   background-size: cover;
   background-position: center;
+}
+
+.home .btn {
+  padding: 1em 2em;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+
+.home .welcome-text {
+  font-size: 2.2em;
+}
+
+@media (min-width: 768px) {
+  .home {
+    background-image: url("../img/panama-city-big.jpg");
+  }
 }/*# sourceMappingURL=styles.css.map */
