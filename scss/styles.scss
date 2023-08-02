@@ -62,11 +62,15 @@ body {
 }
 
 .home .welcome-text {
-  font-size: 2.2em;
+  font-size: 1.4em;
 }
 
 @media (min-width: 768px) {
   .home {
     background-image: url("../img/panama-city-big.jpg");
+  }
+
+  .home .welcome-text {
+    font-size: 2.2em;
   }
 }
