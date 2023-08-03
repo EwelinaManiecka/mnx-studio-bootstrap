@@ -12,6 +12,11 @@ html {
 body {
   font-family: "Roboto", sans-serif;
   font-size: 1.6rem;
+  position: relative;
+}
+
+[id] {
+  scroll-margin-top: 84px;
 }
 
 .hero-shadow {
@@ -117,5 +122,10 @@ body {
   }
   .home .welcome-text {
     font-size: 2.2em;
+  }
+}
+@media (min-width: 992px) {
+  [id] {
+    scroll-margin-top: 60px;
   }
 }/*# sourceMappingURL=styles.css.map */
